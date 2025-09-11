@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceTaxi</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbit&family=Exo+2:wght@400;700&family=Space+Mono:wght@400;700&family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header aria-label="Introduction" class="introduction-bg">
+    <div class="introduction-container">
+
+      <div class="introduction-content">
+        <div class="header">
+          <h1 class="titulo font-1-m co-0">SPACETAXI</h1>
+          <nav aria-label="Navigation">
+            <ul class="header-menu font-1-xs co-1 ">
+              <li><a href="#about">About</a></li>
+              <li><a href="#planets">Planets</a></li>
+              <li><a href="#spaceship">Spaceship</a></li>
+              <li><a href="#prices">Prices</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="introduction-content">
+
+          <form action="./" method="post" class="form-container">
+            <h2 class="subtitle font-1-s co-0">Order a Taxi</h2>
+
+            <div class="form-content">
+              <div class="form-dropdown">
+                <div class="select font-2-s co-0">
+                  <span class="subtitle-2 font-3-s co-4">From</span>
+                  <span class="selected">EARTH</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu font-3-s">
+                  <li>MARS</li>
+                  <li class="active">EARTH</li>
+                  <li>MERCURY</li>
+                  <li>JUPITER</li>
+                </ul>
+              </div>
+              <div class="form-dropdown">
+                <div class="select font-2-s co-0">
+                  <span class="subtitle-2 font-3-s co-4">Finish</span>
+                  <span class="selected">MARS</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu font-3-s">
+                  <li>EARTH</li>
+                  <li class="active">MARS</li>
+                  <li>MERCURY</li>
+                  <li>JUPITER</li>
+                </ul>
+              </div>
+              <div class="form-dropdown">
+                <div class="select font-2-s co-0">
+                  <span class="subtitle-2 font-3-s co-4">Spaceship</span>
+                  <span class="selected">Space Shuttle Milennium Falcon</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu font-3-s">
+                  <li>Space Shuttle Nebula Hawk</li>
+                  <li class="active">Space Shuttle Milennium Falcon</li>
+                  <li>Space Shuttle Star Phoenix</li>
+
+                </ul>
+              </div>
+              <button type="submit" class="btn font-4-s ">ORDER A TAXI</button>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <h2>Olaa</h2>
+  <script src="./js/introduction/dropdown.js"></script>
+</body>
+
+</html>

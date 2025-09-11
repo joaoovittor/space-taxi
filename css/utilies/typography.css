@@ -1,0 +1,94 @@
+.font-1-xs {
+  font: 400 1.5rem/1.35 "Orbit", sans-serif;
+}
+.font-2-xs {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.font-1-s {
+  font: 400 4rem/1.43 "Exo 2", sans-serif;
+}
+.font-2-s {
+  font: 400 1.3rem/1.5 "Exo 2", sans-serif;
+  letter-spacing: 2px;
+}
+.font-3-s {
+  font: 400 1rem/1.5 "Exo 2", sans-serif;
+  letter-spacing: 4px;
+}
+.font-4-s {
+  font: 600 1.3rem/1.5 "Exo 2", sans-serif;
+  letter-spacing: 4px;
+}
+.font-1-m {
+  font: 400 6rem/1.35 "Rajdhani", sans-serif;
+}
+
+.font-1-m-b {
+  font: 600 1.75rem/1.5 "Rajdhani", sans-serif;
+}
+@media (max-width: 1300px) {
+  .font-1-m {
+    font-size: 5rem;
+  }
+  .font-1-s {
+    font-size: 3rem;
+  }
+  .font-1-xs {
+    font-size: 1.3rem;
+  }
+  .font-2-s {
+    font-size: 1.125rem;
+  }
+  .font-3-s {
+    font-size: 0.825rem;
+  }
+  .font-4-s {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1100px) {
+  .font-1-m {
+    font-size: 4.5rem;
+  }
+  .font-1-s {
+    font-size: 2.5rem;
+  }
+  .font-1-xs {
+    font-size: 1rem;
+  }
+  .font-2-s {
+    font-size: 0.9rem;
+  }
+  .font-3-s {
+    font-size: 0.725rem;
+  }
+  .font-4-s {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 1000px) {
+  .font-1-m {
+    font-size: 4rem;
+  }
+  .font-1-s {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 450px) {
+  .font-1-m {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 370px) {
+  .font-1-s {
+    font-size: 2rem;
+  }
+  .font-1-m {
+    font-size: 2.5rem;
+  }
+  .font-1-xs {
+    font-size: 0.825rem;
+  }
+}
