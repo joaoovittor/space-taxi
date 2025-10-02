@@ -1,0 +1,159 @@
+.planets-bg {
+  background-image: url(/Img/planets/mars.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.planets-container {
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 75px;
+  max-width: 1400px;
+}
+.planets-navegation {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.planets-content p:nth-child(2),
+h2 {
+  margin-bottom: 50px;
+}
+.planets-content p:nth-child(4) {
+  margin-bottom: 25px;
+}
+.planets-content p:nth-child(5) {
+  margin-bottom: 100px;
+}
+.planets-specifications {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.planets-specifications h3:first-child {
+  grid-column: 1 / -1;
+  text-align: right;
+  margin-bottom: 50px;
+  border-bottom: 4px solid var(--co-2);
+  padding: 22px;
+}
+.planets-specifications-content {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 200px;
+}
+.planets-specifications-content li {
+  position: relative;
+}
+.planets-specifications-content li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100px;
+  background: var(--co-2);
+  height: 100%;
+  width: 4px;
+}
+.planets-specifications-content li:first-child::after {
+  content: "";
+  background: none;
+}
+/*---------------- PLANETS RESPONSIVE ----------------*/
+@media (max-width: 1550px) {
+  .planets-specifications h3:first-child {
+    padding: 15px;
+  }
+}
+@media (max-width: 1605px) {
+  .planets-specifications-content {
+    gap: 150px;
+  }
+}
+@media (max-width: 1405px) {
+  .planets-specifications-content {
+    gap: 100px;
+  }
+  .planets-specifications-content li::after {
+    left: -50px;
+  }
+  .planets-navegation {
+    gap: 40px;
+  }
+}
+@media (max-width: 1205px) {
+  .planets-specifications-content {
+    gap: 50px;
+  }
+  .planets-specifications-content li::after {
+    left: -25px;
+    width: 2px;
+  }
+}
+@media (max-width: 1005px) {
+  .planets-specifications-content {
+    gap: 25px;
+  }
+  .planets-specifications-content li::after {
+    left: -15px;
+    width: 2px;
+  }
+}
+@media (max-width: 905px) {
+  .planets-specifications h3:first-child {
+    border-bottom: 3px solid var(--co-2);
+  }
+}
+@media (max-width: 750px) {
+  .planets-specifications-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+  .planets-specifications-content li:first-child::after {
+    background: var(--co-2);
+  }
+  .planets-specifications h3:first-child {
+    grid-column: 1 / -1;
+    text-align: right;
+    margin-bottom: 35px;
+    border-bottom: 3px solid var(--co-2);
+    padding: 12px;
+  }
+}
+@media (max-width: 615px) {
+  .planets-navegation {
+    gap: 20px;
+  }
+  .planets-container {
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .planets-navegation {
+    margin-bottom: 25px;
+  }
+  .planets-content p:nth-child(2),
+  h2 {
+    margin-bottom: 25px;
+  }
+  .planets-content p:nth-child(4) {
+    margin-bottom: 25px;
+  }
+  .planets-content p:nth-child(5) {
+    margin-bottom: 50px;
+  }
+
+  .planets-specifications h3:first-child {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 395px) {
+  .planets-navegation {
+    gap: 20px;
+    justify-content: center;
+  }
+}
