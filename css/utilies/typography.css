@@ -138,6 +138,22 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 725px) {
+  #earth .font-3-m {
+    font-size: 1.225rem;
+  }
+  #earth .font-1-c {
+    font-size: 6rem;
+    letter-spacing: 15px;
+    word-break: break-all;
+  }
+  #earth .font-4-m {
+    font-size: 1.125rem;
+  }
+  #earth .font-5-m {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 615px) {
   .font-3-m {
     font-size: 1.225rem;
@@ -155,6 +171,7 @@
     font-size: 1rem;
   }
 }
+
 @media (max-width: 520px) {
   .font-2-m {
     font-size: 1.5rem;
@@ -163,7 +180,11 @@
     font-size: 0.9rem;
   }
 }
-
+@media (max-width: 470px) {
+  #earth .font-1-c {
+    font-size: 4rem;
+  }
+}
 @media (max-width: 450px) {
   .font-1-m {
     font-size: 3rem;
@@ -187,6 +208,11 @@
   }
   .font-5-m {
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 372px) {
+  #earth .font-1-c {
+    font-size: 3rem;
   }
 }
 @media (max-width: 323px) {
