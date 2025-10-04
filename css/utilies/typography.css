@@ -106,19 +106,24 @@
   }
 }
 @media (max-width: 1025px) {
-  #mercury .font-3-m {
+  #mercury .font-3-m,
+  #jupiter .font-3-m {
     font-size: 1.525rem;
   }
-  #mercury .font-1-c {
+  #mercury .font-1-c,
+  #jupiter .font-1-c {
     font-size: 5rem;
   }
-  #mercury .font-5-s {
+  #mercury .font-5-s,
+  #jupiter .font-5-s {
     font-size: 0.85rem;
   }
-  #mercury .font-4-m {
+  #mercury .font-4-m,
+  #jupiter .font-4-m {
     font-size: 1.125rem;
   }
-  #mercury .font-5-m {
+  #mercury .font-5-m,
+  #jupiter .font-5-m {
     font-size: 1rem;
   }
 }
@@ -156,18 +161,22 @@
   }
 }
 @media (max-width: 750px) {
-  #mercury .font-3-m {
+  #mercury .font-3-m,
+  #jupiter .font-3-m {
     font-size: 1.225rem;
   }
-  #mercury .font-1-c {
+  #mercury .font-1-c,
+  #jupiter .font-1-c {
     font-size: 5rem;
     letter-spacing: 7px;
     word-break: break-all;
   }
-  #mercury .font-4-m {
+  #mercury .font-4-m,
+  #jupiter .font-4-m {
     font-size: 1.125rem;
   }
-  #mercury .font-5-m {
+  #mercury .font-5-m,
+  #jupiter .font-5-m {
     font-size: 1rem;
   }
 }
@@ -214,7 +223,8 @@
   }
 }
 @media (max-width: 500px) {
-  #mercury .font-1-c {
+  #mercury .font-1-c,
+  #jupiter .font-1-c {
     font-size: 3rem;
   }
 }
