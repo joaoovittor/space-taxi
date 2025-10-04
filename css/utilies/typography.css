@@ -105,6 +105,23 @@
     letter-spacing: 3px;
   }
 }
+@media (max-width: 1025px) {
+  #mercury .font-3-m {
+    font-size: 1.525rem;
+  }
+  #mercury .font-1-c {
+    font-size: 5rem;
+  }
+  #mercury .font-5-s {
+    font-size: 0.85rem;
+  }
+  #mercury .font-4-m {
+    font-size: 1.125rem;
+  }
+  #mercury .font-5-m {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 1000px) {
   .font-1-m {
     font-size: 4rem;
@@ -138,6 +155,22 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 750px) {
+  #mercury .font-3-m {
+    font-size: 1.225rem;
+  }
+  #mercury .font-1-c {
+    font-size: 5rem;
+    letter-spacing: 7px;
+    word-break: break-all;
+  }
+  #mercury .font-4-m {
+    font-size: 1.125rem;
+  }
+  #mercury .font-5-m {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 725px) {
   #earth .font-3-m {
     font-size: 1.225rem;
@@ -154,6 +187,7 @@
     font-size: 1rem;
   }
 }
+
 @media (max-width: 615px) {
   .font-3-m {
     font-size: 1.225rem;
@@ -163,7 +197,6 @@
     letter-spacing: 15px;
     word-break: break-all;
   }
-
   .font-4-m {
     font-size: 1.125rem;
   }
@@ -178,6 +211,11 @@
   }
   .font-2-xs {
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 500px) {
+  #mercury .font-1-c {
+    font-size: 3rem;
   }
 }
 @media (max-width: 470px) {
