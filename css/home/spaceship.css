@@ -1,0 +1,89 @@
+.spaceship-bg {
+  background-image: url(/Img/backgrounds/spaceship.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.spaceship-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 100px;
+  padding: 75px 100px;
+}
+.spaceship-container::after {
+  content: "";
+  position: absolute;
+  background-color: var(--co-0);
+  width: 65px;
+  height: 2px;
+  top: 50%;
+}
+.spaceship-img {
+  object-fit: cover;
+  height: 500px;
+}
+.spaceship-content {
+  background-color: var(--co-5);
+  border: 3px solid var(--co-0);
+}
+.spaceship-content h1 {
+  text-align: center;
+  margin-top: -125px;
+  margin-bottom: 25px;
+}
+.spaceship-content p {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.spaceship-content p:nth-child(3) {
+  border-bottom: 1px solid var(--co-2);
+  padding-bottom: 30px;
+}
+.spaceship-content:nth-child(3) {
+  width: 50%;
+  grid-column: 1/-1;
+  justify-content: center;
+}
+.spaceship-content-detais {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.spaceship-content-detais p::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  margin-left: 50px;
+  background: var(--co-2);
+  height: 75%;
+  width: 1px;
+}
+.spaceship-content-detais p {
+  margin: 0;
+  align-self: center;
+}
+.spaceship-content-detais-extra {
+  display: grid;
+  gap: 10px;
+  align-self: center;
+}
+.spaceship-content-detais-extra span {
+  display: block;
+  text-align: end;
+  margin-right: 10px;
+}
+.btn2 {
+  border: none;
+  padding: 15px 20px;
+  background-color: var(--co-5);
+  border: 2px solid var(--co-0);
+  border-radius: 4px;
+  margin: 0;
+  cursor: pointer;
+}
