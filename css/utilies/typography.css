@@ -57,6 +57,11 @@
 .font-2-c {
   font: 400 1rem/1 "Space Mono", sans-serif;
 }
+@media (max-width: 1320px) {
+  .font-2-st {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 1312px) {
   .font-1-m {
     font-size: 5rem;
@@ -64,6 +69,7 @@
   .font-2-m {
     font-size: 2.5rem;
   }
+
   .font-1-s {
     font-size: 3rem;
   }
@@ -84,6 +90,14 @@
     font-size: 9rem;
   }
   .font-5-s {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1220px) {
+  .font-6-m {
+    font-size: 4rem;
+  }
+  .font-3-xs {
     font-size: 1rem;
   }
 }
@@ -135,6 +149,14 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 1015px) {
+  .font-6-m {
+    font-size: 3rem;
+  }
+  .font-3-xs {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 1000px) {
   .font-1-m {
     font-size: 4rem;
@@ -149,6 +171,14 @@
   }
   .font-4-m {
     font-size: 1.125rem;
+  }
+}
+@media (max-width: 850px) {
+  .font-6-m {
+    font-size: 2.5rem;
+  }
+  .font-3-xs {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 800px) {
@@ -239,6 +269,14 @@
 @media (max-width: 470px) {
   #earth .font-1-c {
     font-size: 4rem;
+  }
+}
+@media (max-width: 460px) {
+  .font-6-m {
+    font-size: 2rem;
+  }
+  .font-3-xs {
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 450px) {

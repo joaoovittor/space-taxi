@@ -26,15 +26,20 @@
   height: 500px;
 }
 .spaceship-content {
+  display: grid;
+  align-items: stretch;
   background-color: var(--co-5);
   border: 3px solid var(--co-0);
+  padding-bottom: 20px;
 }
 .spaceship-content h1 {
+  padding: 0 5px 0 5px;
   text-align: center;
   margin-top: -125px;
   margin-bottom: 25px;
 }
 .spaceship-content p {
+  padding: 0 5px 0 5px;
   position: relative;
   text-align: center;
   margin-bottom: 30px;
@@ -44,16 +49,18 @@
   padding-bottom: 30px;
 }
 .spaceship-content:nth-child(3) {
-  width: 50%;
-  grid-column: 1/-1;
-  justify-content: center;
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 600px;
 }
 .spaceship-content-detais {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   gap: 100px;
   position: relative;
   margin-bottom: 10px;
+  padding: 0 10px 0 10px;
 }
 .spaceship-content-detais p::after {
   content: "";
@@ -65,6 +72,7 @@
   width: 1px;
 }
 .spaceship-content-detais p {
+  white-space: nowrap;
   margin: 0;
   align-self: center;
 }
@@ -86,4 +94,113 @@
   border-radius: 4px;
   margin: 0;
   cursor: pointer;
+}
+/*---------------- SPACESHIP RESPONSIVE ----------------*/
+@media (max-width: 1515px) {
+  .spaceship-content-detais {
+    gap: 75px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+  }
+  .spaceship-content h1 {
+    margin-top: -105px;
+  }
+}
+@media (max-width: 1365px) {
+  .spaceship-content-detais {
+    gap: 65px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .spaceship-content-detais {
+    gap: 45px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+  }
+  .spaceship-content-detais p::after {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1125px) {
+  .spaceship-content-detais {
+    gap: 25px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+  }
+  .spaceship-content-detais p::after {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1110px) {
+  .spaceship-content-detais {
+    gap: 25px;
+  }
+  .spaceship-img {
+    object-fit: cover;
+    height: 250px;
+  }
+  .spaceship-content-detais-extra {
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+  }
+  .spaceship-content-detais p::after {
+    display: none;
+  }
+  .spaceship-content-detais-extra span {
+    text-align: center;
+  }
+  .spaceship-content-detais p:nth-child(1)::after {
+    content: "";
+    display: block;
+    margin-left: 110px;
+    background: var(--co-2);
+    height: 75%;
+    width: 1px;
+  }
+}
+@media (max-width: 1015px) {
+  .spaceship-content h1 {
+    margin-top: -75px;
+  }
+}
+@media (max-width: 850px) {
+  .spaceship-container {
+    gap: 50px;
+    padding: 75px 100px;
+  }
+  .spaceship-content h1 {
+    margin-top: -65px;
+  }
+}
+@media (max-width: 770px) {
+  .spaceship-container::after {
+    display: none;
+  }
+  .spaceship-container {
+    gap: 25px;
+  }
+}
+@media (max-width: 750px) {
+  .spaceship-container {
+    grid-template-columns: 1fr;
+  }
+  .spaceship-content:nth-child(3) {
+    grid-column: 1;
+    justify-self: center;
+  }
+}
+@media (max-width: 615px) {
+  .spaceship-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .spaceship-container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
