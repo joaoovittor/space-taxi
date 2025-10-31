@@ -1,0 +1,12 @@
+/*Global*/
+@import url(./global/global.css);
+
+/*Home*/
+@import url(./home/introducao.css);
+@import url(./home/sobre.css);
+@import url(./home/planets.css);
+@import url(./home/spaceship.css);
+
+/*Utilies*/
+@import url(./utilies/color.css);
+@import url(./utilies/typography.css);

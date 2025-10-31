@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SpaceTaxi</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="preload" href="./style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbit&family=Exo+2:wght@400;700&family=Space+Mono:wght@400;700&family=Rajdhani:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -109,9 +110,9 @@
         <nav class="">
           <ul class="planets-navegation font-5-s co-3">
             <li><a class="co-0" href="#planets">MARS</a></li>
-            <li><a href="./planets/earth.html">EARTH</a></li>
-            <li><a href="./planets/mercury.html">MERCURY</a></li>
-            <li><a href="./planets/jupiter.html">JUPITER</a></li>
+            <li><a href="./earth.html">EARTH</a></li>
+            <li><a href="./mercury.html">MERCURY</a></li>
+            <li><a href="./jupiter.html">JUPITER</a></li>
           </ul>
         </nav>
         <p class="font-3-m co-0">Where Legends Begin</p>
@@ -151,7 +152,7 @@
   <section id="spaceship" aria-label="Spaceship" class="spaceship-bg">
     <div class="spaceship-container">
       <div class="spaceship-content">
-        <img class="spaceship-img" src="./Img/ships/Millenium Falcon.jpg" alt="nave branca">
+        <img class="spaceship-img" src="./Img/ships/Millenium Falcon.jpg" alt="nave branca" loading="lazy">
         <h1 class="font-6-m co-0">Millenium <br> Falcon</h1>
         <p class="font-3-xs co-3">Legendary speed. Iconic design. Built for <br> rebels and galaxy explorers.</p>
         <div class="spaceship-content-detais font-2-st co-0">
@@ -164,7 +165,7 @@
         </div>
       </div>
       <div class="spaceship-content">
-        <img class="spaceship-img" src="./Img/ships/Nebula Hawk.jpg" alt="nave preta">
+        <img class="spaceship-img" src="./Img/ships/Nebula Hawk.jpg" alt="nave preta" loading="lazy">
         <h1 class="font-6-m co-0">Nebula <br> Hawk</h1>
         <p class="font-3-xs co-3">Silent, deadly, and made for hostile <br> nebula patrols</p>
         <div class="spaceship-content-detais font-2-st  co-0">
@@ -177,7 +178,7 @@
         </div>
       </div>
       <div class="spaceship-content">
-        <img class="spaceship-img" src="./Img/ships/Star Phoenix.jpg" alt="nave cinza">
+        <img class="spaceship-img" src="./Img/ships/Star Phoenix.jpg" alt="nave cinza" loading="lazy">
         <h1 class="font-6-m co-0">Star <br> Phoenix</h1>
         <p class="font-3-xs co-3">Luxury and tech combined for stellar <br> leaders.</p>
         <div class="spaceship-content-detais font-2-st  co-0">
