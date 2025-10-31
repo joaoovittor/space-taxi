@@ -1,26 +1,26 @@
 .planets-bg {
-  background-image: url(/Img/planets/mars.jpg);
+  background-image: url(../../Img/planets/mars.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
 }
 #earth.planets-bg {
-  background-image: url(/Img/planets/earth.jpg);
+  background-image: url(../../Img/planets/earth.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
 }
 #mercury.planets-bg {
-  background-image: url(/Img/planets/mercury.jpg);
+  background-image: url(../../Img/planets/mercury.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
 }
 #jupiter.planets-bg {
-  background-image: url(/Img/planets/jupiter.jpg);
+  background-image: url(../../Img/planets/jupiter.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

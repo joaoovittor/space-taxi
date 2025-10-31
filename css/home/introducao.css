@@ -1,7 +1,7 @@
 /* ---------------- INTRODUCTION SECTION ---------------- */
 .introduction-bg {
   display: flex;
-  background-image: url(/Img/backgrounds/Introducao1.jpg);
+  background-image: url(../../Img/backgrounds/Introducao1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 .introduction-container {
-  background-image: url(/Img/backgrounds/Introducao2.jpg);
+  background-image: url(../../Img/backgrounds/Introducao2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
